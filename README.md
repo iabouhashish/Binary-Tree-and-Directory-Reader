@@ -20,8 +20,9 @@ Returns the string representation of a Binary Tree.
 ```
 
 ## Directory Reader
-Directory Reader only has a main function
-The main function creates a popup dialog where the user picks a folder and the program outputs the files and the folders contained in the folder.
+Directory Reader creates a window using JFrame where the user can click on an button.
+The Button opens a popup dialog where the user picks a folder and the program outputs the files contained in this folder and recursively goes through the folders to list its contents.
+The folders become Trees with the the files their content and each folder inside becomes another Node.
 
 ## Testing
 Using JUnit 4 for Testing Functions.
