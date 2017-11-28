@@ -22,3 +22,6 @@ Returns the string representation of a Binary Tree.
 ## Directory Reader
 Directory Reader only has a main function
 The main function creates a popup dialog where the user picks a folder and the program outputs the files and the folders contained in the folder.
+
+## Testing
+Using JUnit 4 for Testing Functions.
